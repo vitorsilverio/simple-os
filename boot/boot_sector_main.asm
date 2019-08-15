@@ -19,12 +19,12 @@ KERNEL_OFFSET equ 0x1000 ; The same one we used when linking the kernel
     jmp $ ; Never executed
 
 
-%include "boot_sector_print.asm"
-%include "boot_sector_print_hex.asm"
-%include "boot_sector_disk.asm"
-%include "boot_sector_32bits_gdt.asm"
-%include "boot_sector_32bits_print.asm"
-%include "boot_sector_32bits_switch.asm"
+%include "boot/boot_sector_print.asm"
+%include "boot/boot_sector_print_hex.asm"
+%include "boot/boot_sector_disk.asm"
+%include "boot/boot_sector_32bits_gdt.asm"
+%include "boot/boot_sector_32bits_print.asm"
+%include "boot/boot_sector_32bits_switch.asm"
 
 [bits 16]
 load_kernel:

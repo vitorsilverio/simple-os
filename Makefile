@@ -10,7 +10,7 @@ GDB = /usr/local/i386elfgcc/bin/i386-elf-gdb
 CFLAGS = -g
 
 # First rule is run by default
-os-image.bin: boot/bootsect.bin kernel.bin
+os-image.bin: boot/boot_sector_main.bin kernel.bin
 	cat $^ > os-image.bin
 
 # '--oformat binary' deletes all symbols as a collateral, so we don't need
