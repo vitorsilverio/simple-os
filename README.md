@@ -1,4 +1,4 @@
-# simples-os
+# simple-os
 
 An experimental OS i build following [OS Tutorial](https://github.com/cfenollosa/os-tutorial/)
 
