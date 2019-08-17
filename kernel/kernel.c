@@ -2,7 +2,7 @@
 
 void main() {
     clear_screen();
-    kprint_at("SIMPLE OS", 0, 0);
-    kprint_at("This is an experimental operational system", 0, 1);
+    kprint("SIMPLE OS\n");
+    kprint("This is an experimental operational system");
 }
 
